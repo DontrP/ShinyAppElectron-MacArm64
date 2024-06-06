@@ -22,13 +22,13 @@ First, create folder name "RPortableMac" in the same directory as main.js.Then, 
 cp -r /Library/Frameworks/R.framework/Versions/Current/Resources/* /path-to-your/RPortableMac
 ```
 
-### 4. Install Electron as development dependency (first time)
+### 4. Install Electron as development dependency 
 Run this in Rstudio's terminal
 ```
 npm install --save-dev electron
 ```
 
-### 5. Install electron forge (first time)
+### 5. Install electron forge
 ```
 npm install --save-dev @electron-forge/cli 
 npx electron-forge import

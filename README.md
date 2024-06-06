@@ -10,7 +10,7 @@ The R Shiny application in this project using data from Data Source: Bhanupratap
 ### 1. Clone the git.
 Use terminal and run this command line. 
 ```
-clone git https://github.com/DontrP/ShinyAppElectron-MacArm64
+git clone https://github.com/DontrP/ShinyAppElectron-MacArm64
 ```
 
 ### 2. Test the R Shiny application

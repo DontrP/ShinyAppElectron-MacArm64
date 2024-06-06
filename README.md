@@ -1,9 +1,9 @@
 # ShinyAppElectron-MacArm64
 ## Build self-contained R Shiny App using Electron for Mac arm64
 
-This project leverage Shiny Electron from COVAIL's electron-quick-start (ref: https://github.com/COVAIL/electron-quick-start) to build self-contained R Shiny Application for Mac arm64. It aims to facilitate the distribution of Shiny application without dependency on server or installation of RStudio at the client's side. It is noted that the current version only works on Mac arm64 for both developer and users. The 'RPortableWin' path for window version included in the main.js is for future experiment purpose. 
+This project leverages Shiny Electron from COVAIL's electron-quick-start (ref: https://github.com/COVAIL/electron-quick-start) to build self-contained R Shiny Application for Mac arm64. It aims to facilitate the distribution of Shiny application without dependency on server or installation of RStudio at the client's side. It is noted that the current version only works on Mac arm64 for both developer and users. The 'RPortableWin' path for window version included in the main.js is for future experiment purpose. 
 
-The R Shiny application in this project uses data from Data Source: Bhanupratap Biswas. (2023). HR Analytics: Case Study [Data set]. Kaggle. 10.34740/kaggle/dsv/5905686. 
+The R Shiny application in this project uses data from Bhanupratap Biswas. (2023). HR Analytics: Case Study [Data set]. Kaggle. 10.34740/kaggle/dsv/5905686. 
 
 ## To build the application, please follow these steps.
 

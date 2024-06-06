@@ -1,5 +1,5 @@
 {
-  "name": "my-shiny-app",
+  "name": "ShinyApp-MacArm64",
   "version": "1.0.0",
   "description": "The revised version of Shiny Electron application for Mac arm64. It is inspired by COVAIL electron-quick-start (https://github.com/COVAIL/electron-quick-start/blob/master/package.json)",
   "main": "main.js",

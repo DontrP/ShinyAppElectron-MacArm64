@@ -5,7 +5,7 @@ This project leverage Shiny Electron from COVAIL's electron-quick-start (ref: ht
 
 The R Shiny application in this project uses data from Data Source: Bhanupratap Biswas. (2023). HR Analytics: Case Study [Data set]. Kaggle. 10.34740/kaggle/dsv/5905686. 
 
-## To build the application, please folow this step.
+## To build the application, please follow these steps.
 
 ### 1. Clone the git.
 Use terminal and run this command line. 

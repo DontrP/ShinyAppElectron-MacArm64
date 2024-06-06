@@ -1,0 +1,77 @@
+{
+  "name": "my-shiny-app",
+  "version": "1.0.0",
+  "description": "The revised version of Shiny Electron application for Mac arm64. It is inspired by COVAIL electron-quick-start (https://github.com/COVAIL/electron-quick-start/blob/master/package.json)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint src --color"
+  },
+  "keywords": [
+    "shiny", "R", "electron"
+  ],
+  "author": "Don Piumsuwan",
+  "license": "ISC",
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/DontrP/ShinyElectronApp_MacArm64.git"
+    },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-dmg": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^30.0.9"
+  },
+  "config": {
+    "forge": {
+      "makers": [
+        {
+          "name": "@electron-forge/maker-squirrel",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-rpm",
+          "config": {}
+        },
+        {
+          "name": "@electron-forge/maker-dmg",
+          "config": {}
+        }
+      ]
+    }
+  },
+  "build": {
+    "appId": "com.donpiumsuwan.myshinyapp",
+    "mac": {
+      "target": [
+        "dmg"
+      ],
+      "category": "public.app-category.utilities"
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "arch": [
+        "x64"
+      ],
+      "requestedExecutionLevel": "asInvoker"
+    }
+  },
+  "dependencies": {
+    "detect-port": "^1.6.1",
+    "electron-squirrel-startup": "^1.0.1"
+  }
+}

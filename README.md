@@ -34,7 +34,12 @@ npm install --save-dev @electron-forge/cli
 npx electron-forge import
 ```
 
-### 6. Package the app
+### 6. Test your app before paskaging it
+```
+npm start
+```
+
+### 7. Package the app
 ```
 npm run make -- --platform=darwin --arch=arm64
 ```
